@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv
+venv/
+ENV/
+
+# --- Conda ---
+# If you created your environment using 'conda create --prefix ./env'
+env/
+conda-env/
+.conda/
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Data & Large Files ---
+*.log
+*.csv
+*.sqlite
+# Large model files or datasets
+models/
+data/
+!data/.gitkeep
+
+ann_classifier/
